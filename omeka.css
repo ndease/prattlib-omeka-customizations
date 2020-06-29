@@ -1,0 +1,180 @@
+body {
+font-family:LyonRegular, helvetica, sans-serif
+}
+
+#content {
+background-color:#fff !important
+}
+
+.winter nav.top {
+border-bottom:5px solid #FFB900 !important;
+background-color:rgba(30,30,30,.88) !important
+}
+
+#top-nav a {
+color:#fff !important;
+font-family:ApercuRegular, helvetica, sans-serif
+}
+
+#top-nav a:hover {
+color:#FFB900 !important;
+border:1px solid transparent
+}
+
+#content div {
+border-color:#FFB900 !important;
+border-width:0 !important
+}
+
+.pagination_previous a, .winter #content .pagination_next a {
+background-color:#fff !important;
+border:solid 1px #000
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family:ApercuMedium, Helvetica, Arial, sans-serif !important;
+font-weight:400 !important
+}
+
+p, pre {
+font-family:LyonRegular, Helvetica, Arial, sans-serif;
+margin:1.125em 0;
+line-height:1.55em;
+font-size:1.04em;
+letter-spacing:normal
+}
+
+p a {
+color:#000 !important;
+padding:2px;
+border-bottom:1px solid #0C77D4;
+border-bottom-width:1px;
+border-bottom-style:solid;
+border-bottom-color:#0C77D4;
+text-decoration:none
+}
+
+p a:hover {
+color:#FFF !important;
+background-color:#0C77D4;
+padding:2px
+}
+
+blockquote {
+margin:1.5em 40px
+}
+
+h1 {
+font-size:2.75em;
+line-height:1.5em;
+margin-top:.13636em;
+margin-bottom:.13636em;
+text-transform:uppercase;
+letter-spacing:.09em
+}
+
+@media (max-width: 47.938em) {
+h1 {
+font-size:2.25em
+}
+}
+
+h2 {
+font-size:1.5rem !important;
+font-family:inherit;
+font-weight:500 !important;
+line-height:1.2 !important;
+color:!important;
+margin-top:0 !important;
+letter-spacing:.09em !important;
+text-transform:uppercase
+}
+
+h3 {
+font-size:1.5em;
+line-height:1.5em;
+margin-top:.15em;
+margin-bottom:.15em;
+letter-spacing:normal
+}
+
+@media (max-width: 47.938em) {
+h3 {
+font-size:1.5em
+}
+}
+
+h4 {
+font-size:1em;
+line-height:2em;
+margin-top:.25em;
+margin-bottom:.25em;
+letter-spacing:.09em;
+text-transform:uppercase
+}
+
+@media (max-width: 47.938em) {
+h4 {
+font-size:1em
+}
+}
+
+h5 {
+font-size:1.04em;
+line-height:1.2em;
+margin-top:.12em;
+margin-bottom:.12em
+}
+
+@media (max-width: 47.938em) {
+h5 {
+font-size:.9375em
+}
+}
+
+h6 {
+font-size:.95em;
+line-height:1.57895em;
+margin-top:.15789em;
+margin-bottom:.15789em
+}
+
+@media (max-width: 47.938em) {
+h6 {
+font-size:.7125em
+}
+}
+
+b, strong {
+font-family:LyonBold, LyonRegular, Helvetica, Arial, sans-serif
+}
+
+dfn {
+font-style:italic
+}
+
+hr {
+color:#000;
+background-color:#000
+}
+
+mark {
+background:#ff0;
+color:#000
+}
+
+code, kbd, pre, samp {
+font-family:monospace, serif;
+font-size:1em
+}
+
+p {
+font-size:1em
+}
+
+a {
+color:#0C77D4 !important;
+font-size:1em;
+text-decoration:none;
+letter-spacing:normal
+}
