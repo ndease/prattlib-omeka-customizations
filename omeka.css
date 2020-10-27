@@ -1,46 +1,40 @@
 body {
-font-family:LyonRegular, helvetica, sans-serif
+font-family:LyonRegular, helvetica, sans-serif;
+font-size:16px;
+color:#222
 }
 
-#content {
-background-color:#fff !important
+#site-title a {
+color:#000;
+font-size:1.2em
 }
 
-.winter nav.top {
-border-bottom:5px solid #FFB900 !important;
-background-color:rgba(30,30,30,.88) !important
+#site-title a:hover {
+color:#0C77D4
+}
+
+#featured a {
+font-size:1.6em
 }
 
 #top-nav a {
-color:#fff !important;
 font-family:ApercuRegular, helvetica, sans-serif
 }
 
-#top-nav a:hover {
-color:#FFB900 !important;
-border:1px solid transparent
-}
-
-#content div {
-border-color:#FFB900 !important;
-border-width:0 !important
-}
-
-.pagination_previous a, .winter #content .pagination_next a {
-background-color:#fff !important;
-border:solid 1px #000
+footer p {
+color:#000 !important
 }
 
 h1, h2, h3, h4, h5, h6 {
 font-family:ApercuMedium, Helvetica, Arial, sans-serif !important;
-font-weight:400 !important
+font-weight:400 !important;
+color:#000
 }
 
 p, pre {
 font-family:LyonRegular, Helvetica, Arial, sans-serif;
 margin:1.125em 0;
 line-height:1.55em;
-font-size:1.04em;
 letter-spacing:normal
 }
 
@@ -65,7 +59,7 @@ margin:1.5em 40px
 }
 
 h1 {
-font-size:2.75em;
+font-size:2em;
 line-height:1.5em;
 margin-top:.13636em;
 margin-bottom:.13636em;
@@ -173,8 +167,31 @@ font-size:1em
 }
 
 a {
-color:#0C77D4 !important;
 font-size:1em;
 text-decoration:none;
 letter-spacing:normal
+}
+
+footer {
+background-color:#fff !important
+}
+
+#item-images {
+display:none
+}
+
+#collection {
+display:none
+}
+
+.image-tiff a.download-file {
+display:none
+}
+
+.summary-header h1 {
+color:#fff !important
+}
+
+#home #featured {
+height:60vh
 }
