@@ -29,15 +29,15 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')), 'bod
         <?php $imageCount = 0; ?>
         <?php foreach ($images as $image): ?>
         <?php $imageCount++; ?>
-        <?php $fileUrl = ($linkToFileMetadata == '1') ? record_url($image) : $image->getWebPath('original'); ?>
-        <li 
-            data-src="<?php echo $image->getWebPath('original'); ?>" 
-            data-thumb="<?php echo $image->getWebPath('square_thumbnail'); ?>" 
+        <?php $fileUrl = ($linkToFileMetadata == '1') ? record_url($image) : $image->getWebPath('fullsize'); ?>
+        <li
+            data-src="<?php echo $image->getWebPath('fullsize'); ?>"
+            data-thumb="<?php echo $image->getWebPath('square_thumbnail'); ?>"
             data-sub-html=".media-link-<?php echo $imageCount; ?>"
             class="media resource"
         >
             <div class="media-render">
-            <?php echo file_image('original', array(), $image); ?>
+            <?php echo file_image('fullsize', array(), $image); ?>
             </div>
             <div class="media-link-<?php echo $imageCount; ?>">
             <a href="<?php echo $fileUrl; ?>"><?php echo metadata($image, 'display_title'); ?></a>
@@ -75,7 +75,7 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')), 'bod
 <div id="other-media" class="element">
     <h3><?php echo __('Files'); ?></h3>
     <?php foreach ($nonImages as $nonImage): ?>
-    <?php $fileLink = ($linkToFileMetadata == '1') ? record_url($nonImage) : $nonImage->getWebPath('original'); ?>
+    <?php $fileLink = ($linkToFileMetadata == '1') ? record_url($nonImage) : $nonImage->getWebPath('fullsize'); ?>
     <div class="element-text"><a href="<?php echo $fileLink; ?>"><?php echo gettype($linkToFileMetadata); ?> <?php echo metadata($nonImage, 'display_title'); ?> - <?php echo $nonImage->mime_type; ?></a></div>
     <?php endforeach; ?>
 </div>
@@ -102,3 +102,10 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')), 'bod
 </nav>
 
 <?php echo foot(); ?>
+<!-- adds JSTOR Forum permalink to Source field-->
+<script type="text/javascript">
+var jstor_link = document.querySelector("#dublin-core-source > div").innerHTML;
+    jQuery(document).ready(function(){
+        document.querySelector("#dublin-core-source > div").innerHTML = "<a href='https://www.jstor.org/stable/10.2307/community." + jstor_link + "'>See the full item on JSTOR</a>";
+    });
+</script>
