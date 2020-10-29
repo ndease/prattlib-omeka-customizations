@@ -291,8 +291,12 @@ header nav a:hover {
 
 h1{
   font-size:1.5rem !important;
+  margin:1.8rem !important;
 }
 
+h2{
+  font-size: 1.2rem !important;
+}
 .media-link-1{
   display:none;
 }
