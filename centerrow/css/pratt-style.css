@@ -284,6 +284,9 @@ header nav a:hover {
     color: #0C77D4 !important;
 }
 
+nav a{
+      font-family: "ApercuMedium", Helvetica, Arial, sans-serif;
+}
 .browse .hentry h2 a, #collection-items .hentry h2 a {
     font-size: .8em;
     text-transform: none;
@@ -297,6 +300,10 @@ h1{
 h2{
   font-size: 1.2rem !important;
 }
+
+h5{
+  font-size:1rem !important;
+}
 .media-link-1{
   display:none;
 }
@@ -304,4 +311,22 @@ h2{
 #exhibit-pages {
   padding:none !important
   width:100% !important;
+}
+
+body{
+font-family: "LyonRegular", Helvetica, Arial, sans-serif;
+}
+
+.footer-links{
+  padding-left:0px;
+  list-style: none;
+}
+
+ul.navigation {
+    list-style: none;
+    padding-left: 0px;
+}
+
+address{
+  font-family: "LyonRegular", Helvetica, Arial, sans-serif;
 }

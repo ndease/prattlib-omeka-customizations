@@ -106,6 +106,6 @@ echo head(array('title' => metadata('item', array('Dublin Core', 'Title')), 'bod
 <script type="text/javascript">
 var jstor_link = document.querySelector("#dublin-core-source > div").innerHTML;
     jQuery(document).ready(function(){
-        document.querySelector("#dublin-core-source > div").innerHTML = "<a href='https://www.jstor.org/stable/10.2307/community." + jstor_link + "'>See the full item on JSTOR</a>";
+        document.querySelector("#dublin-core-source > div").innerHTML = "<a target='_blank' href='https://www.jstor.org/stable/10.2307/community." + jstor_link + "'>See the full item on JSTOR</a>";
     });
 </script>
