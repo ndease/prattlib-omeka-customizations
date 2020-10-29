@@ -255,3 +255,49 @@ a  {
     text-decoration:  none;
     letter-spacing:  normal;
 }
+
+/*omeka-specific overrides*/
+
+#site-title a {
+    display: block;
+    vertical-align: top;
+    font-family: "ApercuMedium", Helvetica, Arial, sans-serif;
+    color: #000000 !important;
+    letter-spacing: 0.08em;
+}
+
+#site-title a:hover{
+  text-decoration: none;
+  color: #0C77D4 !important;
+}
+
+header nav a {
+    font-size: .9em;
+    text-transform: uppercase;
+    text-decoration: none !important;
+    font-family: "ApercuMedium", Helvetica, Arial, sans-serif;
+    color: #000000 !important;
+    letter-spacing: 0.08em;
+}
+
+header nav a:hover {
+    color: #0C77D4 !important;
+}
+
+.browse .hentry h2 a, #collection-items .hentry h2 a {
+    font-size: .8em;
+    text-transform: none;
+}
+
+h1{
+  font-size:1.5rem !important;
+}
+
+.media-link-1{
+  display:none;
+}
+
+#exhibit-pages {
+  padding:none !important
+  width:100% !important;
+}
