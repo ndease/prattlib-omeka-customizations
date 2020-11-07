@@ -256,6 +256,17 @@ a  {
     letter-spacing:  normal;
 }
 
+.navbar-custom {
+    background-color: rgba(30, 30, 30, 0.88) !important;
+    border-bottom: 5px solid #FFB900;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.3) !important;
+}
+
+#library-brand{
+  max-width:300px;
+  padding:10px;
+}
+
 /*omeka-specific overrides*/
 
 #site-title a {
@@ -288,13 +299,15 @@ nav a{
       font-family: "ApercuMedium", Helvetica, Arial, sans-serif;
 }
 .browse .hentry h2 a, #collection-items .hentry h2 a {
-    font-size: .8em;
     text-transform: none;
 }
-
+.browse .hentry h2, #collection-items .hentry h2 {
+    margin-bottom: .5em;
+    margin-top: .5em !important;
+}
 h1{
   font-size:1.5rem !important;
-  margin:1.8rem !important;
+  margin-bottom:1.8rem !important;
 }
 
 h2{

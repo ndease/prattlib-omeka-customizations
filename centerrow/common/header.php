@@ -49,6 +49,13 @@
 <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
     <a href="#content" id="skipnav"><?php echo __('Skip to main content'); ?></a>
     <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
+    <!-- <header>
+      <div class="navbar-custom">
+        <a href="https://library.pratt.edu" target="_blank">
+        <img id ="library-brand" src="/themes/centerrow/img/PIL_Logo_White.svg" alt="Library Home">
+      </a>
+      </div>
+    </header> -->
     <div id="wrap">
 
         <header role="banner">
