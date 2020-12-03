@@ -305,6 +305,19 @@ nav a{
     margin-bottom: .5em;
     margin-top: .5em !important;
 }
+
+div.exhibit.hentry > div.description > *:first-child  {
+overflow: hidden;
+text-overflow: ellipsis;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+}
+
+div.exhibit.hentry > div.description > * {
+  display:none;
+}
+
 h1{
   font-size:1.5rem !important;
   margin-bottom:1.8rem !important;
@@ -312,6 +325,10 @@ h1{
 
 h2{
   font-size: 1.2rem !important;
+}
+
+h2 b, strong {
+  font-family: "ApercuMedium", Helvetica, Arial, sans-serif;
 }
 
 h5{

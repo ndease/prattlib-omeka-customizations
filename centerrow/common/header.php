@@ -34,7 +34,7 @@
     echo head_js();
     ?>
 <!-- Pratt Style -->
-<link rel="stylesheet" href="/themes/centerrow/css/pratt-style.css" type="text/css" />
+<link rel="stylesheet" href="/themes/centerrow/css/pratt-style.css?ver=003" type="text/css" />
 <!-- BootStrap -->
   <link rel="stylesheet" href="https://library.pratt.edu/?css=site2019/.bootstrap_min.v.1556638942" type="text/css" />
    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
@@ -49,13 +49,13 @@
 <?php echo body_tag(array('id' => @$bodyid, 'class' => @$bodyclass)); ?>
     <a href="#content" id="skipnav"><?php echo __('Skip to main content'); ?></a>
     <?php fire_plugin_hook('public_body', array('view'=>$this)); ?>
-    <!-- <header>
+    <header>
       <div class="navbar-custom">
         <a href="https://library.pratt.edu" target="_blank">
         <img id ="library-brand" src="/themes/centerrow/img/PIL_Logo_White.svg" alt="Library Home">
       </a>
       </div>
-    </header> -->
+    </header>
     <div id="wrap">
 
         <header role="banner">
