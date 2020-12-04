@@ -268,6 +268,14 @@ a  {
 }
 
 /*omeka-specific overrides*/
+@media screen and (min-width: 641px) {
+#search-container {
+  top:-42px;
+}
+}
+#search-form.closed + .search-toggle {
+    border: none !important;
+}
 
 #site-title a {
     display: block;
@@ -306,6 +314,17 @@ nav a{
     margin-top: .5em !important;
 }
 
+@media screen and (max-width: 640px) {
+.browse .hentry, #collection-items .hentry {
+    border: none !important;
+}
+}
+
+#search-form {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
 div.exhibit.hentry > div.description > *:first-child  {
 overflow: hidden;
 text-overflow: ellipsis;
@@ -318,6 +337,12 @@ div.exhibit.hentry > div.description > * {
   display:none;
 }
 
+.element h3 {
+    font-size: 1.3em !important;
+}
+.element-text {
+  font-family: "LyonRegular", Helvetica, Arial, sans-serif;
+}
 h1{
   font-size:1.5rem !important;
   margin-bottom:1.8rem !important;
@@ -350,11 +375,18 @@ font-family: "LyonRegular", Helvetica, Arial, sans-serif;
 .footer-links{
   padding-left:0px;
   list-style: none;
+  line-height: 1.5em !important;
+  font-family: "ApercuMedium", Helvetica, Arial, sans-serif;
 }
 
 ul.navigation {
     list-style: none;
     padding-left: 0px;
+    font-family: "ApercuMedium", Helvetica, Arial, sans-serif;
+}
+
+div#exhibit-page-navigation {
+    font-family: "ApercuMedium", Helvetica, Arial, sans-serif;
 }
 
 address{
