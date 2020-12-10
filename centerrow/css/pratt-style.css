@@ -359,7 +359,8 @@ h2 b, strong {
 h5{
   font-size:1rem !important;
 }
-.media-link-1{
+
+div[class|='media-link']{
   display:none;
 }
 

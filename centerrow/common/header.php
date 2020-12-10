@@ -34,7 +34,7 @@
     echo head_js();
     ?>
 <!-- Pratt Style -->
-<link rel="stylesheet" href="/themes/centerrow/css/pratt-style.css?ver=007" type="text/css" />
+<link rel="stylesheet" href="/themes/centerrow/css/pratt-style.css?ver=008" type="text/css" />
 <!-- BootStrap -->
   <link rel="stylesheet" href="https://library.pratt.edu/?css=site2019/.bootstrap_min.v.1556638942" type="text/css" />
    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
