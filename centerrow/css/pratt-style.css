@@ -324,6 +324,46 @@ nav a{
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
+#exhibit-pages h4 {
+    border-bottom: none;
+  }
+#exhibit-pages h4 > a {
+      color:black !important;
+    }
+#exhibit-pages h4 > a:hover {
+          color:#0C77D4 !important;
+          text-decoration:none;
+        }
+#exhibit-pages > ul > li.current > a {
+    color: #0C77D4 !important;
+}
+
+#exhibit-pages > ul > li.current {
+    border-top: 1px solid #0C77D4;
+}
+
+#exhibit-pages > ul > li > a {
+    color: black !important;
+    display: block;
+}
+
+#exhibit-pages > ul > li > a:hover {
+    color: #0C77D4 !important;
+    text-decoration: none;
+}
+
+#exhibit-pages > ul > li {
+    border-bottom: none !important;
+    border-top: 1px solid black;
+}
+
+#exhibit-pages > ul > li:hover {
+    border-top: 1px solid #0C77D4;
+}
+
+#exhibit-pages > h4 > a {
+  text-transform:none;
+}
 
 div.exhibit.hentry > div.description > *:first-child  {
 overflow: hidden;
