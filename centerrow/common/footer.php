@@ -21,18 +21,18 @@
                 <div class="col-lg-3 col-sm-6 mb-4 footer-links">
                     <h3 class="h5">Contact Us
                     </h3><address>
-                    Archives & Special Collections<br>Pratt Institute Libraries<br>200 Willoughby Ave<br> Brooklyn, NY 11205<br> 718.636.3704
+                    Archives & Special Collections<br>Pratt Institute Libraries<br>200 Willoughby Ave<br> Brooklyn, NY 11205<br> 718.636.3704<br>
                   </address>
-                  <a href="mailto:archives.library@pratt.edu">Email us</a><br>
+                  <a href="mailto:archives.library@pratt.edu">archives.library@pratt.edu</a><br>
                   <a href="https://libguides.pratt.edu/archives/visit">Visit us</a>
                     <div class="wrapper">
                         <a target="_blank" aria-label="Instagram" href="https://www.instagram.com/prattinstitutearchives/?hl=en"><i class="fab fa-2x fa-instagram"></i></a>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6 mb-4">
+                <div class="col-lg-3 col-sm-6 mb-4 footer-links">
                     <h3 class="h5">Image Rights</h3>
-    <p>Please <a href="mailto:rightsandrepro.library@pratt.edu">email our rights & reproduction staff</a> for permission to use the images featured on this site.</p>
+    <p>Please email our rights & reproduction staff for permission to use the images featured on this site:<a href="mailto:rightsandrepro.library@pratt.edu">rightsandrepro.library@pratt.edu</a></p>
                 </div>
 
                 <div class="col-lg-3 col-sm-6 mb-4">
